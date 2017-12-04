@@ -1,0 +1,3 @@
+[submodule "task2_feature/sklearn-genetic"]
+	path = task2_feature/sklearn-genetic
+	url = git@github.com:manuel-calzolari/sklearn-genetic
