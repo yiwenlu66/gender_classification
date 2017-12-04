@@ -6,7 +6,7 @@ SELECTED_FEATURES = (0, 2)
 
 if __name__ == '__main__':
     np.random.seed(42)      # make the result reproducible
-    data = np.load('data.npz')
+    data = np.load('../data.npz')
     X_train, X_test, y_train, y_test = \
         data['X_train'], data['X_test'], data['y_train'], data['y_test']
 

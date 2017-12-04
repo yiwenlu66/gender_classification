@@ -9,7 +9,7 @@ def get_dataset(filename):
     return X, y
 
 if __name__ == '__main__':
-    X_train, y_train = get_dataset('dataset3.txt')
-    X_test, y_test = get_dataset('dataset4.txt')
+    X_train, y_train = get_dataset('data/dataset3.txt')
+    X_test, y_test = get_dataset('data/dataset4.txt')
     np.savez('data.npz',
              X_train=X_train, X_test=X_test, y_train=y_train, y_test=y_test)

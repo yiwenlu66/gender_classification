@@ -1,9 +1,9 @@
-from common import load_data
 import numpy as np
-import itertools
-from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score as accuracy
 from sklearn.model_selection import GridSearchCV
+from sklearn.svm import SVC
+
+from task1_classification.common import load_data
 
 if __name__ == '__main__':
     Cs = np.logspace(-3, 1, 9)

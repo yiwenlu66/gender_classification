@@ -1,11 +1,11 @@
 import numpy as np
-from common import load_data
 from matplotlib import pyplot as plt
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.naive_bayes import GaussianNB
-from sklearn.svm import LinearSVC
-from sklearn.svm import SVC
 from sklearn.neural_network import MLPClassifier
+from sklearn.svm import SVC
+
+from task1_classification.common import load_data
 
 
 def make_meshgrid(x, y, h=.02):

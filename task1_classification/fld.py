@@ -1,6 +1,7 @@
-from common import load_data
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.metrics import accuracy_score as accuracy
+
+from task1_classification.common import load_data
 
 if __name__ == '__main__':
     print('\t'.join(['Samples', 'Feat.', 'FLD']))

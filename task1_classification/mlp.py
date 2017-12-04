@@ -1,7 +1,8 @@
-from common import load_data
-from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score as accuracy
 from sklearn.model_selection import train_test_split
+from sklearn.neural_network import MLPClassifier
+
+from task1_classification.common import load_data
 
 RANDOM_SEED = 42
 MAX_NODES_PER_LAYER = 100

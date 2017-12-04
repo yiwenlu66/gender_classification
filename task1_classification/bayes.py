@@ -1,11 +1,12 @@
 import numpy as np
+from sklearn.metrics import accuracy_score as accuracy
 from sklearn.naive_bayes import GaussianNB
 from sklearn.utils import check_X_y, check_array
-from sklearn.utils.multiclass import unique_labels
 from sklearn.utils.fixes import in1d
+from sklearn.utils.multiclass import unique_labels
 from sklearn.utils.validation import check_is_fitted
-from sklearn.metrics import accuracy_score as accuracy
-from common import load_data
+
+from task1_classification.common import load_data
 
 
 class GaussianNonNaiveBayes(GaussianNB):
